@@ -1,0 +1,56 @@
+
+.carousel .carousel-actions button:hover {
+    background-color: rgb(190, 221, 15);
+    color: black;
+}
+
+.carousel {
+    max-width: 600px;
+    position: relative;
+}
+
+.carousel .carousel-item {
+    display: none;
+    position: relative;
+    max-width: 600px;
+}
+
+.carousel .carousel-item-visible {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.carousel .carousel-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel .carousel-actions button {
+    border-radius: 50px;
+    border: 0;
+    height: 40px;
+    width: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+
+.carousel .carousel-actions button#carousel-button-prev {
+    margin-left: 20px;
+}
+
+.carousel .carousel-actions button#carousel-button-next {
+    margin-right: 20px;
+}
